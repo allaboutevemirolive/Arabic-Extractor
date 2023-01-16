@@ -28,8 +28,9 @@ import pytesseract
 # Set Tesseract data path
 ```
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
-To read the image and generate OCR text using Tesseract, you can use the following code:
 ```
+To read the image and generate OCR text using Tesseract, you can use the following code:
+
 # Read image
 ```
 image = cv2.imread("image.png")
