@@ -47,11 +47,14 @@ You can then use the gTTS library to convert the OCR text to speech. Here is an 
 # Convert OCR text to speech
 ```
 tts = gTTS(text, lang='ar')
-
-# Save audio file
-tts.save("output.mp3")
-
-# Play audio file
-ipd.Audio("output.mp3")
-I hope this helps! Let me know if you have any questions.
 ```
+# Save audio file
+```
+tts.save("output.mp3")
+```
+# Play audio file
+```
+ipd.Audio("output.mp3")
+```
+I hope this helps! Let me know if you have any questions.
+
