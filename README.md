@@ -1,9 +1,6 @@
 # Arabic OCR and TTS: 
-> Extract Text from Images and Convert it to Speech
 
-This project aims to extract Arabic text from images and convert it to speech. This can be useful in a variety of applications, such as accessibility for visually impaired individuals or language learning. The end result is that it will output an audio file with the text spoken in Arabic.
-
-***
+This project aims to extract Arabic text from images and convert it to speech. It can be useful in a variety of applications such as accessibility for visually impaired individuals or language learning. The end result is that it will output an audio file with the text spoken in Arabic.
 
 # Installation
 
@@ -18,7 +15,7 @@ pip install pytesseract
 pip install gTTS
 ```
 
-# Usage
+# Implementation
 
 Here are the steps to use pytesseract:
 
@@ -43,16 +40,13 @@ C:\Program Files\Tesseract-OCR\tessdata
 
 Once you have completed these steps, pytesseract should be set up and ready to use.
 
-Note: The installation path may be different in your computer based on your installation settings. But the above path is the default path of installation.
+Note: 
+> The installation path may be different in your computer based on your installation settings. But the above path is the default path of installation.
 
-
-
-
-***
 
 # Convert Image to Text
 
-```
+```python
 import cv2
 import docx
 import pytesseract
@@ -76,10 +70,9 @@ document.add_paragraph(text)
 document.save("output.docx")
 ```
 
-***
-
 # Convert Image to Speech
-```
+
+```python
 import cv2
 import pytesseract
 from gtts import gTTS
