@@ -15,7 +15,7 @@ pip install pytesseract
 pip install gTTS
 ```
 
-# Ussage
+# Usage
 
 Here are the steps to use pytesseract:
 
