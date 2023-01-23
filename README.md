@@ -3,6 +3,8 @@
 
 This project aims to extract Arabic text from images and convert it to speech. This can be useful in a variety of applications, such as accessibility for visually impaired individuals or language learning. The end result is that it will output an audio file with the text spoken in Arabic.
 
+***
+
 # Installation
 
 To install the required libraries, you can use the following commands:
