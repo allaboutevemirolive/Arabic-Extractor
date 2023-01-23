@@ -11,9 +11,7 @@ To install the required libraries, you can use the following commands:
 !pip install gTTS
 ```
 
-## Convert tmage to text
-
-
+## Convert image to text
 
 ```
 import cv2
@@ -37,15 +35,34 @@ document.add_paragraph(text)
 
 # Save the document
 document.save("output.docx")
-
-
 ```
 
 
+
+# Convert image to speech
+```
+import cv2
+import pytesseract
+from gtts import gTTS
+import IPython.display as ipd
 
 # Set Tesseract data path
-```
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+# Read image
+image = cv2.imread("image.jpg")
+
+# Generate OCR text
+text = pytesseract.image_to_string(image, lang='ara')
+
+# Convert OCR text to speech
+tts = gTTS(text, lang='ar')
+
+# Save audio file
+tts.save("output.mp3")
+
+# Play audio file
+ipd.Audio("output.mp3")
 ```
 To read the image and generate OCR text using Tesseract, you can use the following code:
 
