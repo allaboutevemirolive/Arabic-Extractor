@@ -11,9 +11,9 @@ To install the required libraries, you can use the following commands:
 !pip install gTTS
 ```
 
-## Usage
+## Convert tmage to text
 
-First, you will need to import the necessary libraries and set the Tesseract data path. This can be done with the following code:
+
 
 ```
 import cv2
