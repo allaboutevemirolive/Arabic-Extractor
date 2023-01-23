@@ -96,4 +96,29 @@ tts.save("output.mp3")
 # Play audio file
 ipd.Audio("output.mp3")
 ```
+# References
+
+https://tesseract-ocr.github.io/tessdoc/Installation.html
+
+https://github.com/tesseract-ocr/tessdata
+
+https://github.com/UB-Mannheim/tesseract/wiki
+
+https://www.kaggle.com/code/tareksherif/arabic-ocr-using-pytesseract
+
+https://tesseract-ocr.github.io/tessdoc/Compiling-%E2%80%93-GitInstallation.html
+
+https://www.pyimagesearch.com/2020/08/03/tesseract-ocr-for-non-english-languages/
+
+https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
+
+https://pypi.org/project/pytesseract/
+
+https://github.com/tesseract-ocr/tessdoc
+
+http://pydotplus.readthedocs.org/
+
+https://github.com/carlos-jenkins/pydotplus
+
+https://gtts.readthedocs.io/en/latest/module.html
 
