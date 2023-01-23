@@ -7,7 +7,11 @@ In this repository, you will find a guide on how to extract Arabic text from an 
 To install the required libraries, you can use the following commands:
 ```
 pip install pydotplus
+```
+```
 pip install pytesseract
+```
+```
 pip install gTTS
 ```
 
@@ -43,7 +47,7 @@ Note: The installation path may be different in your computer based on your inst
 
 
 
-# Convert image to text
+# Convert Image to Text
 
 ```
 import cv2
@@ -71,7 +75,7 @@ document.save("output.docx")
 
 
 
-# Convert image to speech
+# Convert Image to Speech
 ```
 import cv2
 import pytesseract
