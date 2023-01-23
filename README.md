@@ -19,7 +19,7 @@ pip install gTTS
 
 Here are the steps to use pytesseract:
 
-1. Download the trained language data file (tessdata) from the following link:
+1. Download the trained language data file (tessdata) that you want. For example, "ara.traineddata" stands for Arabic, from the following link:
 ```
 https://github.com/tesseract-ocr/tessdata
 ```
