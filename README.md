@@ -1,6 +1,6 @@
-# Extracting Arabic Text from Images with Python
+# Arabic OCR and TTS: Extract Text from Images and Convert it to Speech
 
-In this repository, you will find a guide on how to extract Arabic text from an image using Python. You will need to install the necessary libraries using the pip package manager.
+This project aims to extract Arabic text from images and convert it to speech. This can be useful in a variety of applications, such as accessibility for visually impaired individuals or language learning. The end result is that it will output an audio file with the text spoken in Arabic.
 
 # Installation
 
