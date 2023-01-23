@@ -46,7 +46,7 @@ Note: The installation path may be different in your computer based on your inst
 
 
 
-
+***
 
 # Convert Image to Text
 
@@ -74,7 +74,7 @@ document.add_paragraph(text)
 document.save("output.docx")
 ```
 
-
+***
 
 # Convert Image to Speech
 ```
