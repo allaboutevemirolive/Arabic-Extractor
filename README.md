@@ -15,11 +15,29 @@ To install the required libraries, you can use the following commands:
 
 First, you will need to import the necessary libraries and set the Tesseract data path. This can be done with the following code:
 
-```python
+```
 import cv2
-import os
-import pydotplus
+import docx
 import pytesseract
+
+# Set Tesseract data path
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+# Read image
+image = cv2.imread("input.jpg")
+
+# Generate OCR text
+text = pytesseract.image_to_string(image, lang='ara')
+
+# Create a new Microsoft Word document
+document = docx.Document()
+
+# Add the OCR text to the document
+document.add_paragraph(text)
+
+# Save the document
+document.save("output.docx")
+
 
 ```
 
