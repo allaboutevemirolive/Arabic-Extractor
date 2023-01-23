@@ -6,9 +6,9 @@ In this repository, you will find a guide on how to extract Arabic text from an 
 
 To install the required libraries, you can use the following commands:
 ```
-!pip install pydotplus
-!pip install pytesseract
-!pip install gTTS
+pip install pydotplus
+pip install pytesseract
+pip install gTTS
 ```
 
 # Convert image to text
