@@ -1,5 +1,5 @@
 # Arabic OCR and TTS: 
-# Extract Text from Images and Convert it to Speech
+> Extract Text from Images and Convert it to Speech
 
 This project aims to extract Arabic text from images and convert it to speech. This can be useful in a variety of applications, such as accessibility for visually impaired individuals or language learning. The end result is that it will output an audio file with the text spoken in Arabic.
 
