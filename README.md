@@ -4,7 +4,7 @@ This project aims to extract Arabic text from images and convert it to speech. I
 
 # Installation
 
-To install the required libraries, you can use the following commands:
+To install the required libraries, you can use the following commands on command prompt:
 ```
 pip install pydotplus
 ```
@@ -13,6 +13,12 @@ pip install pytesseract
 ```
 ```
 pip install gTTS
+```
+```
+pip install python-docx
+```
+```
+pip install ipython
 ```
 
 # Implementation
@@ -121,4 +127,10 @@ http://pydotplus.readthedocs.org/
 https://github.com/carlos-jenkins/pydotplus
 
 https://gtts.readthedocs.io/en/latest/module.html
+
+https://ipython.org/install.html
+
+https://python-docx.readthedocs.io/en/latest/index.html
+
+
 
