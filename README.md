@@ -23,7 +23,7 @@ Here are the steps to use pytesseract:
 ```
 https://github.com/tesseract-ocr/tessdata
 ```
-2. Download the latest Windows installer from this link:
+2. Download the latest Tesseract installer for Windows from this link:
 ```
 https://github.com/UB-Mannheim/tesseract/wiki
 ```
